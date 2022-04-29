@@ -1,0 +1,41 @@
+type = input("what type od measurement you calculate:- ")
+
+
+
+
+
+east = float(input("enter the east side on in feet ^ :- "))
+west = float(input("enter the west side on in feet V :- "))
+north = float(input("enter the noth side on in feet < :- "))
+south = float(input("enter the south side on in feet > :- "))
+
+direction1  = east+west
+direction2 = north+south
+
+
+direct1 = direction1/2
+direct2 = direction2/2
+
+multiply = direct1*direct2
+
+
+squarefeet = multiply/436
+
+kuli = squarefeet/8
+
+
+
+
+print("your total cent is :- " , squarefeet)
+print("your total kuli is :- " , kuli)
+
+
+
+
+
+
+
+
+
+
+
